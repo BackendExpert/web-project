@@ -15,11 +15,10 @@ const FooterM = () => {
        <div>
             <h1 className="mb-1 font-semibold text-2xl">Research</h1>
             <ul>
-                <li><a href="#">Board of Governors</a></li>
-                <li><a href="#">Director</a></li>
-                <li><a href="#">Research Council</a></li>
-                <li><a href="#">Alumni</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="#">Research Divisions</a></li>
+                <li><a href="#">Research Collaboration</a></li>
+                <li><a href="#">Research Funding</a></li>
+                <li><a href="#">Young Scientist Association (YSA)</a></li>
             </ul>
        </div>
        <div>
