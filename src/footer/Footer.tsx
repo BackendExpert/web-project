@@ -11,7 +11,9 @@ const Footer = () => {
         <footer className="bg-sky-900 text-white">
             <div className="container mx-auto h-auto px-8 py-8">
                 <div className="mx-auto w-full max-w-screen-xl">
-                    dsadas
+                <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16">
+                    
+                </div>
                     <div className="px-4 py-6 dark:bg-gray-700 md:flex md:items-center md:justify-between">
                         <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                             <img src={LogoSl} className="h-16" alt="SlLogo" />
