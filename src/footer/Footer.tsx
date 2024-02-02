@@ -1,7 +1,6 @@
 import LogoSl from '../assets/pngegg.png'
 import FooterM from './FooterM'
-
-
+import SocialLinks from './SocialLinks';
 
 const Footer = () => {
     return (      
@@ -20,7 +19,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-
+                        <SocialLinks />
                     </div>
                 <p className="text-center text-xs">&copy; National Institute of Fundamental Studies. Hanthana Road, Kandy, Sri Lanka</p>
                 </div>
