@@ -1,9 +1,4 @@
 import LogoSl from '../assets/pngegg.png'
-import fb from '../assets/faceb.png'
-import inster from '../assets/inster.png'
-import linked from '../assets/linkedin.png'
-import tx from '../assets/tx.png'
-import yt from '../assets/yt.png'
 import FooterM from './FooterM'
 
 
@@ -25,13 +20,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <ul className="flex flex-wrap justify-end sm:mb-0">
-                            <li className='pl-4'><img src={fb} alt="Facebook" /></li>
-                            <li className='pl-4'><img src={tx} alt="Tuiter" /></li>
-                            <li className='pl-4'><img src={inster} alt="Inster" /></li>
-                            <li className='pl-4'><img src={yt} alt="Youtube" /></li>    
-                            <li className='pl-4'><img src={linked} alt="linked" /></li>                         
-                        </ul>
+
                     </div>
                 <p className="text-center text-xs">&copy; National Institute of Fundamental Studies. Hanthana Road, Kandy, Sri Lanka</p>
                 </div>
