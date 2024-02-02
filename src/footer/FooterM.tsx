@@ -5,17 +5,42 @@ const FooterM = () => {
        <div>
             <h1 className="mb-1 font-semibold text-2xl">About</h1>
             <ul>
-                <li><a href=""></a></li>
+                <li><a href="#">Board of Governors</a></li>
+                <li><a href="#">Director</a></li>
+                <li><a href="#">Research Council</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Join</a></li>
             </ul>
        </div>
        <div>
             <h1 className="mb-1 font-semibold text-2xl">Research</h1>
+            <ul>
+                <li><a href="#">Board of Governors</a></li>
+                <li><a href="#">Director</a></li>
+                <li><a href="#">Research Council</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
        </div>
        <div>
             <h1 className="mb-1 font-semibold text-2xl">Dissemination</h1>
+            <ul>
+                <li><a href="#">Board of Governors</a></li>
+                <li><a href="#">Director</a></li>
+                <li><a href="#">Research Council</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
        </div>
        <div>
             <h1 className="mb-1 font-semibold text-2xl">Contact</h1>
+            <ul>
+                <li><a href="#">Board of Governors</a></li>
+                <li><a href="#">Director</a></li>
+                <li><a href="#">Research Council</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
        </div>
     </div>
   )
