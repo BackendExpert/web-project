@@ -4,16 +4,17 @@ import inster from '../assets/inster.png'
 import linked from '../assets/linkedin.png'
 import tx from '../assets/tx.png'
 import yt from '../assets/yt.png'
+import FooterM from './FooterM'
 
 
 
 const Footer = () => {
     return (      
-
+        
         <footer className="bg-sky-900 text-white">
             <div className="container mx-auto h-auto px-8 py-8">
                 <div className="mx-auto w-full max-w-screen-xl">
-                
+                <FooterM />
                     <div className="px-4 py-6 dark:bg-gray-700 md:flex md:items-center md:justify-between">
                         <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                             <img src={LogoSl} className="h-16" alt="SlLogo" />
@@ -36,6 +37,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        
     );
 };
 
