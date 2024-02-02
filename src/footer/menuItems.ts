@@ -13,3 +13,18 @@ export const Research = [
     {name: "Young Scientist Association (YSA)", link: "#"},    
 ];
 
+export const Dissemination = [
+    {name: "Reports", link: "#"},
+    {name: "Research Publication", link: "#"},
+    {name: "Blog", link: "#"},
+];
+
+export const Contact = [
+    {name: "Directory", link: "#"},
+    {name: "Right to Information", link: "#"},
+    {name: "Scientists", link: "#"},
+    {name: "Staff Profile", link: "#"},    
+]
+
+
+
