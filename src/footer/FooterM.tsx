@@ -24,21 +24,19 @@ const FooterM = () => {
        <div>
             <h1 className="mb-1 font-semibold text-2xl">Dissemination</h1>
             <ul>
-                <li><a href="#">Board of Governors</a></li>
-                <li><a href="#">Director</a></li>
-                <li><a href="#">Research Council</a></li>
-                <li><a href="#">Alumni</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Research Publication</a></li>
+                <li><a href="#">Blog</a></li>
             </ul>
        </div>
        <div>
             <h1 className="mb-1 font-semibold text-2xl">Contact</h1>
             <ul>
-                <li><a href="#">Board of Governors</a></li>
-                <li><a href="#">Director</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Right to Information</a></li>
                 <li><a href="#">Research Council</a></li>
-                <li><a href="#">Alumni</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="#">Scientists</a></li>
+                <li><a href="#">Staff Profile</a></li>
             </ul>
        </div>
     </div>
