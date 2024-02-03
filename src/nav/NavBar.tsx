@@ -11,9 +11,9 @@ const NavBar = () => {
                     <ul>
                       <li className="text-blue-800 text-4xl">NIFS</li>
                     </ul>
-                  </div>
                 </div>
-             </div>
+            </div>
+          </div>
         </nav>
     </div>
   )
