@@ -1,9 +1,9 @@
 const NavItems = () => {
   return (
     <div className="text-white fs-semibold">
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-1 py-1">
-            hi all
-        </div>
+        <ul className="flex flex-wrap justify-end sm:mb-0">
+            <li><a href="">Home</a></li>                      
+        </ul>
     </div>
   )
 }
