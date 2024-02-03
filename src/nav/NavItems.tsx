@@ -1,6 +1,6 @@
 const NavItems = () => {
   return (
-    <div className="text-white fs-semibold">
+    <div className="text-white fs-semibold hidden w-full md:block md:w-auto" id="navbar-default">
         <ul className="flex flex-wrap justify-end sm:mb-0">
             <li className="px-4"><a href="">Home</a></li>     
             <li className="px-4"><a href="">About</a></li>     
