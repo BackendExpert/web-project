@@ -9,7 +9,7 @@ const NavBar = () => {
             <img src={LogoSl} className="h-8" alt="SlLogo" />
                 <div className="pl-2 text-xs">
                     <ul>
-                      <li className="text-blue-800 text-5xl">NIFS</li>
+                      <li className="text-blue-800 text-4xl">NIFS</li>
                     </ul>
                   </div>
                 </div>
