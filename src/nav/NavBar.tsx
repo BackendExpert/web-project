@@ -1,4 +1,5 @@
 import LogoSl from '../assets/pngegg.png'
+import NavItems from './NavItems'
 
 const NavBar = () => {
   return (
@@ -13,7 +14,7 @@ const NavBar = () => {
                     </ul>
                 </div>
             </div>
-            
+            <NavItems />
           </div>
         </nav>
     </div>
