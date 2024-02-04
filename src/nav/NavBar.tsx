@@ -1,9 +1,7 @@
-import { useState } from "react"
 import SlLogo from "../assets/pngegg.png"
 
 
 const NavBar = () => {
-  let [open, MenuOpen]= useState(false);
   return (
     <div className="shadow-md w-full fixed top-0 left-0 bg-blue-900">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-20 px-7">
@@ -13,7 +11,7 @@ const NavBar = () => {
           </span>
           </div>
           <div className="text-xl absolute right-8 top-5 cursor-pointer md:hidden">
-            <span>Menu Open</span>
+            <span></span>
           </div>
           <ul className="md:flex md-item-center text-2xl text-blue-500 md:pb-0 pb-12">
             <li className="md:ml-8 text xl md:my-0 my-7">
