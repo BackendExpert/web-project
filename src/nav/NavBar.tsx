@@ -4,7 +4,7 @@ import IonIcon from "@reacticons/ionicons"
 
 const NavBar = () => {
   let [open, OpenMenu] = useState(false);
-
+  let [opensbm, OpensMenu] = useState(false);
   return (
     <div className="shadow-md w-full fixed top-0 left-0 bg-blue-900">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-20 px-7">
@@ -18,9 +18,9 @@ const NavBar = () => {
             <span><IonIcon name={open ? "close" : "menu"} /></span>
           </div>
           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-16':'top-[-490px]'}`}>
-            <li className="md:ml-8 text xl md:my-0 my-7">
-              <span className="">Hellooo World</span>
-              <ul className={`items-center pb-0 pb-12 absolute static bg-white z-auto z-[-1] left-0 w-full w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-16':'top-[-490px]'}`}>
+            <li onClick={() => OpensMenu(!opensbm)} className="md:ml-8 text xl md:my-0 my-7">
+              <span className="">Hellooo World <span><IonIcon name={opensbm ? "chevron-down-outline" : "chevron-up-outline"} /></span></span>
+              <ul className={`items-center pb-0 pb-12 absolute static bg-white z-auto z-[-1] left-0 w-full w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${opensbm ? 'top-16':'top-[-490px]'}`}>
                   <li><a href="#">hellow W</a></li>
                   <li><a href="#">hellow W</a></li>
                   <li><a href="#">hellow W</a></li>
