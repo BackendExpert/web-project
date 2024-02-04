@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className="shadow-md w-full fixed top-0 left-0 bg-blue-900">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-20 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-white">
-          <span className="text-3x1 text-indigo-600 md:flex">
+          <span className="text-3x1 text-indigo-600 flex">
             <img src={SlLogo} alt="" className="h-8 w-8"/>
             <span className="px-4">NIFS</span>
           </span>
