@@ -10,11 +10,11 @@ const NavBar = () => {
             <img src={SlLogo} alt="" className="h-8 w-8"/>
           </span>
           </div>
-          <ul className="md:flex md-item-center text-2xl text-white">
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
+          <ul className="md:flex md-item-center text-2xl text-blue-500">
+            <li className="">
+              <a href="#" className=""></a>
+            </li>
+
           </ul>
         
 
