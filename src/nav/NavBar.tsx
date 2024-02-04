@@ -20,7 +20,7 @@ const NavBar = () => {
           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-16':'top-[-490px]'}`}>
             <li onClick={() => OpensMenu(!opensbm)} className="md:ml-8 text xl md:my-0 my-7 cursor-pointer">
               <span className="">Hellooo World <span><IonIcon name={opensbm ? "chevron-up-outline" : "chevron-down-outline"} /></span></span>
-              <ul className={`items-center pb-0 pb-12 absolute static bg-white z-auto z-[-1] left-10 w-full w-auto md:pl-0 pl-9 transition-all duration-500  ${opensbm ? 'top-16':'top-[-100px]'}`}>
+              <ul className={`items-center pb-0 pb-12 absolute static bg-white z-auto z-[-1] left-100 w-full w-auto md:pl-0 pl-9 transition-all duration-500  ${opensbm ? 'top-16':'top-[-5px] py-5'}`}>
                   <li><a href="#">hellow W</a></li>
                   <li><a href="#">hellow W</a></li>
                   <li><a href="#">hellow W</a></li>
