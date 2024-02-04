@@ -12,8 +12,8 @@ const NavBar = () => {
             <img src={SlLogo} alt="" className="h-8 w-8"/>
           </span>
           </div>
-          <div className="text-xl absolute right-8 top-5 cursor-pointer md:hidden">
-            <span><IonIcon name="menu" /></span>
+          <div onClick={() => OpenMenu(!open)} className="text-xl absolute right-8 top-5 cursor-pointer md:hidden">
+            <span><IonIcon name={open ? "close" : "menu"} /></span>
           </div>
           <ul className="md:flex md-item-center text-2xl text-blue-500 md:pb-0 pb-12">
             <li className="md:ml-8 text xl md:my-0 my-7">
