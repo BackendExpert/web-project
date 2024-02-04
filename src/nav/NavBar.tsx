@@ -1,5 +1,5 @@
 import SlLogo from "../assets/pngegg.png"
-
+import IonIcon from "@reacticons/ionicons"
 
 const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ const NavBar = () => {
           </span>
           </div>
           <div className="text-xl absolute right-8 top-5 cursor-pointer md:hidden">
-            <span></span>
+            <span><IonIcon name="bag-outline" /></span>
           </div>
           <ul className="md:flex md-item-center text-2xl text-blue-500 md:pb-0 pb-12">
             <li className="md:ml-8 text xl md:my-0 my-7">
