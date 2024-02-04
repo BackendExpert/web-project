@@ -1,5 +1,4 @@
-import LogoSl from '../assets/pngegg.png'
-import NavItems from './NavItems'
+import "react-dom"
 
 const NavBar = () => {
   return (
@@ -74,7 +73,9 @@ const NavBar = () => {
       </ul>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </nav>
+
 
   )
 }
