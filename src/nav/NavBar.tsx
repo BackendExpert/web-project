@@ -4,6 +4,7 @@ import IonIcon from "@reacticons/ionicons"
 
 const NavBar = () => {
   let [open, OpenMenu] = useState(false);
+  let [subm1, OpenSubM1] = useState(false);
   return (
     <div className="shadow-md w-full fixed top-0 left-0 bg-blue-900">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-20 px-7">
