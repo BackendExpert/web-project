@@ -3,15 +3,20 @@ import SlLogo from "../assets/pngegg.png"
 import IonIcon from "@reacticons/ionicons"
 
 const NavBar = () => {
-  return(
+  let [open, OpenMenu] = useState(false);
 
-      <div className='py-4 px-4 md:flex'>
-        <div>
-          <img className='h-16' src={SlLogo} />
-          <span className="px-2 py-4 text-2xl">NIFS</span>
-        </div>
-        <div className="text-3xl md:flex md:items-center">
-          <IonIcon name="arrow-down-outline"/>
+  return(
+    <div className="shadow-md w-full fixed top-0 left-0 bg-blue-900">
+      <div className="md:flex items-center justify-between bg-gray-700 text-white py-4 md:px-20 px-7">
+        <div className="font-bold text-2xl cursor-pointer flex items-center text-white">
+          <span className="text-3x1 text-indigo-600 flex">
+            <img src={SlLogo} alt="" className="h-8 w-8"/>
+            <span className="px-4">NIFS</span>
+          </span>
+            <div onClick={() => OpenMenu(!open)} className="text-xl absolute right-8 top-5 cursor-pointer">
+                <span><IonIcon name={open ? "close" : "menu"} /></span>
+            </div>
+          </div>
         </div>
       </div>
 
