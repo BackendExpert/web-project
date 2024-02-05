@@ -16,6 +16,9 @@ const NavBar = () => {
             <div onClick={() => OpenMenu(!open)} className="text-xl absolute right-8 top-5 cursor-pointer">
                 <span><IonIcon name={open ? "close" : "menu"} /></span>
             </div>
+            <div className="className={`items-center pb-0 pb-12 absolute static bg-gray-700  z-auto z-[-1] left-100 md:w-auto w-full md:pl-0 pl-9 ml-[-50px] md:ml-0 transition-all duration-500 ease-in ${opensbm ? 'top-17':'top-[-490px]'}`}">
+              HI all
+            </div>
           </div>
         </div>
       </div>
