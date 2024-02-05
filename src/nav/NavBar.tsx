@@ -20,6 +20,12 @@ const NavBar = () => {
               <div className="grid grid-cols-4 gap-4">
                   <div>
                     <span>About</span>
+                    <ul>
+                      <li><a href=""></a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <span>About</span>
                   </div>
                   <div>
                     <span>About</span>
