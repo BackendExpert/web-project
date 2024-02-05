@@ -4,15 +4,17 @@ import IonIcon from "@reacticons/ionicons"
 
 const NavBar = () => {
   return(
-    <div>
+
       <div className='py-4 px-4 md:flex'>
-        <img className='h-16' src={SlLogo} />
-        <span className="px-2 py-4 text-2xl">NIFS</span>
+        <div>
+          <img className='h-16' src={SlLogo} />
+          <span className="px-2 py-4 text-2xl">NIFS</span>
+        </div>
+        <div className="text-3xl md:flex md:items-center">
+          <IonIcon name="arrow-down-outline"/>
+        </div>
       </div>
-      <div className="text-3xl">
-        <IonIcon name="arrow-down-outline"/>
-      </div>
-    </div>
+
   )
 }
 
