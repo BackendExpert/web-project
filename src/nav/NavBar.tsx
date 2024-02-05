@@ -16,10 +16,11 @@ const NavBar = () => {
             <div onClick={() => OpenMenu(!open)} className="text-xl absolute right-8 top-5 cursor-pointer">
                 <span><IonIcon name={open ? "close" : "menu"} /></span>
             </div>
-            <div className={`items-center pb-0 pb-12 absolute static bg-gray-700  z-auto z-[-1] left-100 md:w-auto w-auto md:pl-0 pl-9 ml-50px md:mr-0 transition-all duration-500 ease-in ${open ? 'top-20':'top-[-490px]'}`}>
-              <div className="grid grid-cols-4 gap-4">
+            <div className={`items-center py-6 px-4 absolute static bg-gray-700  z-auto z-[-1] left-100 md:w-auto w-auto md:pl-0 pl-9  md:mr-0 transition-all duration-500 ease-in ${open ? 'top-20':'top-[-490px]'}`}>
+              <h1 className="text-3xl">About</h1>
+              <div className="md:grid grid-cols-4 gap-4">                  
                   <div>
-                    <span>About</span>
+                    <span>Institute</span>
                     <ul>
                       <li><a href=""></a></li>
                     </ul>
