@@ -17,7 +17,20 @@ const NavBar = () => {
                 <span><IonIcon name={open ? "close" : "menu"} /></span>
             </div>
             <div className={`items-center pb-0 pb-12 absolute static bg-gray-700  z-auto z-[-1] left-100 md:w-auto w-auto md:pl-0 pl-9 ml-50px md:mr-0 transition-all duration-500 ease-in ${open ? 'top-20':'top-[-490px]'}`}>
-              HI all
+              <div className="grid grid-cols-4 gap-4">
+                  <div>
+                    <span>About</span>
+                  </div>
+                  <div>
+                    <span>About</span>
+                  </div>
+                  <div>
+                    <span>About</span>
+                  </div>
+                  <div>
+                    <span>About</span>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
