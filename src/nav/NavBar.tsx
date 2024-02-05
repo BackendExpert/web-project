@@ -26,7 +26,7 @@ const NavBar = () => {
                   <li className="md:py-5 px-4"><a href="#">hellow W</a></li>
                   <li className="md:py-5 px-4">
                   <span onClick={() => NewSubOpen(!newSubm)} className="cursor-pointer">Hellooo World <span><IonIcon name={newSubm ? "chevron-up-outline" : "chevron-down-outline"} /></span></span>
-                    <ul className={`items-center pb-0 pb-12 absolute static bg-white z-auto z-[-1] left-100 w-full w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${newSubm ? 'top-16':'top-[-490px]'}`}>
+                    <ul className={`items-center pb-0 pb-12 absolute static bg-white z-auto z-[-1] left-100 w-full w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${newSubm ? 'top-20':'top-[-490px]'}`}>
                       <li className=""><a href="#">new Sub 1</a></li>
                       <li className=""><a href="#">new Sub 1</a></li>
                       <li className=""><a href="#">new Sub 1</a></li>
