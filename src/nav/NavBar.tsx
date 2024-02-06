@@ -69,7 +69,7 @@ const NavBar = () => {
                         <li className="pb-[3px]"><a href="" className="hover:underline">Welfare</a></li>
                       </ul>
                   </div>
-                  <div>
+                  <div className="md:mt-[-140px]">
                   <span className="text-2xl">Facilities</span>
                       <ul className="px-4 py-2">
                         <li className="pb-[3px]"><a href="" className="hover:underline">Research Center</a></li>
