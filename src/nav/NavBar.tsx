@@ -81,9 +81,6 @@ const NavBar = () => {
                     <span className="text-2xl"><a href="">Life at NIFS</a></span>
                     <h1 className="text-3xl md:px-8 px-2 font-bold py-4"><a href="">News & Event</a></h1>
                   </div>
-                  {/* <div className="md:mt-[-140px]">
-                    
-                  </div> */}
                   <div className="md:mt-[-145px]">     
                   <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Academic</h1>             
                     <span className="text-2xl"><a href="">Research</a></span><br />
