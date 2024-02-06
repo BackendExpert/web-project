@@ -108,8 +108,8 @@ const NavBar = () => {
                     <span className="px-4 text-sm duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="">Annual Research Review</a></span><br />
                     <span className="px-4 text-sm duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="">E-Repository</a></span><br />                                  
                   </div>
-                  <div>
-                    <span className="md:mt-[-180px]">Careers</span>
+                  <div className="md:mt-[-180px]">
+                    <span className="">Careers</span>
                   </div>
               </div>
             </div>
