@@ -63,7 +63,10 @@ const NavBar = () => {
                       </ul>
                   </div>
                   <div>
-                    <span>About</span>
+                  <span className="text-2xl"></span>
+                      <ul className="px-4 py-2">
+                        <li className="pb-[3px]"><a href="" className="hover:underline"></a></li>
+                      </ul>
                   </div>
                   <div>
                     <span>About</span>
