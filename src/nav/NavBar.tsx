@@ -59,14 +59,14 @@ const NavBar = () => {
                   <div>
                   <span className="text-2xl">Administration</span>
                       <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="">Accout Division</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Administration Division</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Computer Division</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Science Eduction and Dissemination Unit</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Instrument and Maintenance Division</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Internal Audit Division</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Office of Director</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Procurement and Laboratory Servies Division</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Accout Division</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Administration Division</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Computer Division</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Science Eduction and Dissemination Unit</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Instrument and Maintenance Division</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Internal Audit Division</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Office of Director</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Procurement and Laboratory Servies Division</a></li>
                       </ul>
                   </div>
                   <div className="md:mt-[-140px]">
