@@ -112,7 +112,7 @@ const NavBar = () => {
                   <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Careers</h1> 
                     <span className="px-4 text-md duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium">Vacancies</span><br />
                     <span className="px-4 text-md duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium">Study</span><br />
-                    <h1 className="text-3xl md:px-0 px-2 py-2 font-bold"><a href=""></a></h1> 
+                    <h1 className="text-3xl md:px-0 px-2 py-2 font-bold mt-10"><a href="">Contact</a></h1> 
                   </div>
               </div>
             </div>
