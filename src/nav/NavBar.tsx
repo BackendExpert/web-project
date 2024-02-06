@@ -72,9 +72,9 @@ const NavBar = () => {
                   <div className="md:mt-[-140px]">
                   <span className="text-2xl">Facilities</span>
                       <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Research Center</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Library</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Conference Facilities</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Research Center</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Library</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Conference Facilities</a></li>
                       </ul>
                       <span className="text-2xl"><a href="">Life at NIFS</a></span>
                   </div>
