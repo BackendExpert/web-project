@@ -43,17 +43,17 @@ const NavBar = () => {
                   <div>
                   <span className="text-2xl">Leadership</span>
                       <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="">Board of Govrnors</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Chairman</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Director</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Research Council</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Board of Govrnors</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Chairman</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Director</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Research Council</a></li>
                       </ul>
                   </div>
                   <div>
                   <span className="text-2xl">Society</span>
                       <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="">Young Scientist Association</a></li>
-                        <li className="pb-[3px]"><a href="" className="">Welfare</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Young Scientist Association</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Welfare</a></li>
                       </ul>
                   </div>
                   <div>
