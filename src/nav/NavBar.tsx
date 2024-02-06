@@ -33,11 +33,11 @@ const NavBar = () => {
                   <div>
                     <span className="text-2xl">People</span>
                       <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Scientist</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Academics</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Non Academics</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Volunteer</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Alumin</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Scientist</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Academics</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Non Academics</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Volunteer</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Alumin</a></li>
                       </ul>
                     </div>
                   <div>
