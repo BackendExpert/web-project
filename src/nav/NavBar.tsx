@@ -93,7 +93,7 @@ const NavBar = () => {
                         <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Philosophy & Social Science</a></li>
                     </ul>                 
                   </div>
-                  <div className="md:mt-[-190px]">
+                  <div className="md:mt-[-150px]">
                     <span className="text-2xl"><a href="">Study</a></span>
                   </div>
               </div>
