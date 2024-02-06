@@ -81,12 +81,17 @@ const NavBar = () => {
                     <span className="text-2xl"><a href="">Life at NIFS</a></span>
                   </div>
                   <div className="md:mt-[-140px]">
-                  <span className="text-2xl">Facilities</span>
-                      <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Research Center</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Library</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Conference Facilities</a></li>
-                      </ul>
+                    <h1 className="text-3xl md:px-8 px-2 font-bold">News & Event</h1>
+                  </div>
+                  <div></div>
+                  <div></div>
+                  <div className="">                  
+                    <span className="text-2xl">Facilities</span>
+                        <ul className="px-4 py-2">
+                          <li className="pb-[3px]"><a href="" className="hover:underline">Research Center</a></li>
+                          <li className="pb-[3px]"><a href="" className="hover:underline">Library</a></li>
+                          <li className="pb-[3px]"><a href="" className="hover:underline">Conference Facilities</a></li>
+                        </ul>
                   </div>
               </div>
             </div>
