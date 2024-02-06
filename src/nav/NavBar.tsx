@@ -50,6 +50,13 @@ const NavBar = () => {
                       </ul>
                   </div>
                   <div>
+                  <span className="text-2xl">Society</span>
+                      <ul className="px-4 py-2">
+                        <li className="pb-[3px]"><a href="" className="hover:underline">Young Scientist Association</a></li>
+                        <li className="pb-[3px]"><a href="" className="hover:underline">Welfare</a></li>
+                      </ul>
+                  </div>
+                  <div>
                   <span className="text-2xl">Administration</span>
                       <ul className="px-4 py-2">
                         <li className="pb-[3px]"><a href="" className="hover:underline">Accout Division</a></li>
@@ -62,13 +69,6 @@ const NavBar = () => {
                         <li className="pb-[3px]"><a href="" className="hover:underline">Procurement and Laboratory Servies Division</a></li>
                       </ul>
                   </div>
-                  <div>
-                  <span className="text-2xl">Society</span>
-                      <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Young Scientist Association</a></li>
-                        <li className="pb-[3px]"><a href="" className="hover:underline">Welfare</a></li>
-                      </ul>
-                  </div>
                   <div className="md:mt-[-140px]">
                   <span className="text-2xl">Facilities</span>
                       <ul className="px-4 py-2">
@@ -79,6 +79,14 @@ const NavBar = () => {
                   </div>
                   <div className="md:mt-[-140px]">
                     <span className="text-2xl"><a href="">Life at NIFS</a></span>
+                  </div>
+                  <div className="md:mt-[-140px]">
+                  <span className="text-2xl">Facilities</span>
+                      <ul className="px-4 py-2">
+                        <li className="pb-[3px]"><a href="" className="hover:underline">Research Center</a></li>
+                        <li className="pb-[3px]"><a href="" className="hover:underline">Library</a></li>
+                        <li className="pb-[3px]"><a href="" className="hover:underline">Conference Facilities</a></li>
+                      </ul>
                   </div>
               </div>
             </div>
