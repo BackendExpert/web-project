@@ -25,9 +25,9 @@ const NavBar = () => {
                   <div>
                     <span className="text-2xl">Institute</span>
                     <ul className="px-4 py-2">
-                      <li className="pb-[3px]"><a href="" className="border-blue-400">About Us</a></li>
-                      <li className="pb-[3px]"><a href="" className="hover:underline">History</a></li>
-                      <li className="pb-[3px]"><a href="" className="hover:underline">Vision and Mision</a></li>
+                      <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">About Us</a></li>
+                      <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">History</a></li>
+                      <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Vision and Mision</a></li>
                     </ul>
                   </div>
                   <div>
