@@ -69,7 +69,7 @@ const NavBar = () => {
                         <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Procurement and Laboratory Servies Division</a></li>
                       </ul>
                   </div>
-                  <div className="md:mt-[-140px]">
+                  <div className="md:mt-[-190px]">
                   <span className="text-2xl">Facilities</span>
                       <ul className="px-4 py-2">
                         <li className="pb-[3px] duration-500 hover:bg-white hover:px-2 hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Research Center</a></li>
@@ -78,16 +78,19 @@ const NavBar = () => {
                       </ul>
                       <span className="text-2xl"><a href="">Life at NIFS</a></span>
                   </div>
-                  <div className="md:mt-[-145px]">                    
+                  <div className="md:mt-[-192px]">                    
                     <h1 className="text-3xl md:px-0 px-2 font-bold"><a href="">News & Event</a></h1>
                   </div>
-                  <div className="md:mt-[-152px]">     
+                  <div className="md:mt-[-200px]">     
                   <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Academic</h1>             
                     <span className="text-2xl"><a href="">Research</a></span><br />   
                     <ul className="px-4 py-2">
-                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className=""></a></li>
-                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Library</a></li>
-                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Conference Facilities</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Biological Science</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Chemical And  Physical Science</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Computer Science, Methematics & Stattistics</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Earth and Space Science</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Environment Science</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Philosophy & Social Science</a></li>
                     </ul>                 
                   </div>
                   <div className="md:mt-[-90px]">
