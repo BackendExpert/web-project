@@ -78,7 +78,7 @@ const NavBar = () => {
                       </ul>
                   </div>
                   <div>
-                    <span>About</span>
+                    <span className="text-2xl"><a href="">Life at NIFS</a></span>
                   </div>
               </div>
             </div>
