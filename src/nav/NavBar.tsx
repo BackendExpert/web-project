@@ -96,9 +96,9 @@ const NavBar = () => {
                   <div className="md:mt-[-148px]">
                     <span className="text-2xl"><a href="">Study</a></span>
                     <ul className="px-4 py-2">
-                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Biological Science</a></li>
-                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Chemical And  Physical Science</a></li>
-                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Computer Science, Methematics & Stattistics</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Postgraduate Student</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Undergraduate Student</a></li>
+                        <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Pre-University Stundet</a></li>
                     </ul>  
                   </div>
               </div>
