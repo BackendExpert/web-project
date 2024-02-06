@@ -104,9 +104,9 @@ const NavBar = () => {
                   <div></div>
                   <div className="md:mt-[-180px]">
                   <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Academic</h1> 
-                    <span className="text-2xl"><a href="">Study</a></span>
-                    <span className="text-2xl"><a href="">Study</a></span>
-                    <span className="text-2xl"><a href="">Study</a></span>                                        
+                    <span className="text-2xl"><a href="">Study</a></span><br />
+                    <span className="text-2xl"><a href="">Study</a></span><br />
+                    <span className="text-2xl"><a href="">Study</a></span><br />                                  
                   </div>
               </div>
             </div>
