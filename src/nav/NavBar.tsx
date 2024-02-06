@@ -81,7 +81,7 @@ const NavBar = () => {
                     <span className="text-2xl"><a href="">Life at NIFS</a></span>
                   </div>
                   <div className="md:mt-[-140px]">
-                    <h1 className="text-3xl md:px-8 px-2 font-bold">News & Event</h1>
+                    <h1 className="text-3xl md:px-8 px-2 font-bold"><a href="">News & Event</a></h1>
                   </div>
                   <div></div>
                   <div></div>
