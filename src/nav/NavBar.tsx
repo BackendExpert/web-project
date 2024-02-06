@@ -30,7 +30,7 @@ const NavBar = () => {
                   <div>
                     <span className="text-2xl">People</span>
                       <ul className="px-4 py-2">
-                        <li className="pb-[3px]"><a href="">Scientist</a></li>
+                        <li className="pb-[3px]"><a href="" className="hover:underline">Scientist</a></li>
                         <li className="pb-[3px]"><a href="">Academics</a></li>
                         <li className="pb-[3px]"><a href="">Non Academics</a></li>
                         <li className="pb-[3px]"><a href="">Volunteer</a></li>
@@ -38,7 +38,7 @@ const NavBar = () => {
                       </ul>
                     </div>
                   <div>
-                  <span className="text-2xl">People</span>
+                  <span className="text-2xl">Leadership</span>
                       <ul className="px-4 py-2">
                         <li className="pb-[3px]"><a href="">Scientist</a></li>
                         <li className="pb-[3px]"><a href="">Academics</a></li>
