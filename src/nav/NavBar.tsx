@@ -101,6 +101,11 @@ const NavBar = () => {
                         <li className="pb-[3px] duration-500 hover:bg-white hover:text-gray-700 rounded-sm font-medium"><a href="" className="">Pre-University Stundet</a></li>
                     </ul>  
                   </div>
+                  <div></div>
+                  <div>
+                  <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Academic</h1> 
+                    <span className="text-2xl"><a href="">Study</a></span>
+                  </div>
               </div>
             </div>
           </div>
