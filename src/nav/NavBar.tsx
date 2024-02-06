@@ -85,7 +85,8 @@ const NavBar = () => {
                   </div>
                   <div></div>
                   <div></div>
-                  <div className="">                  
+                  <div className="">     
+                  <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Academic</h1>             
                     <span className="text-2xl">Facilities</span>
                         <ul className="px-4 py-2">
                           <li className="pb-[3px]"><a href="" className="hover:underline">Research Center</a></li>
