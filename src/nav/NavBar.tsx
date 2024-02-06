@@ -78,11 +78,10 @@ const NavBar = () => {
                       </ul>
                       <span className="text-2xl"><a href="">Life at NIFS</a></span>
                   </div>
-                  <div className="md:mt-[-140px]">
-                    
+                  <div className="md:mt-[-145px]">                    
                     <h1 className="text-3xl md:px-0 px-2 font-bold"><a href="">News & Event</a></h1>
                   </div>
-                  <div className="md:mt-[-145px]">     
+                  <div className="md:mt-[-152px]">     
                   <h1 className="text-3xl md:px-0 px-2 py-2 font-bold">Academic</h1>             
                     <span className="text-2xl"><a href="">Research</a></span><br />                    
                   </div>
